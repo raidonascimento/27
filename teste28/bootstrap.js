@@ -9,31 +9,31 @@
  * metadata-driven class system features
  */
 Ext.Loader.addClassPathMappings({
-  "Ext": "touch/src",
-  "Ext-more": "touch/src/core/Ext-more.js",
+  "Ext": "../touch/src",
+  "Ext-more": "../touch/src/core/Ext-more.js",
   "Ext.Boot": ".sencha/app/Boot.js",
-  "Ext.DomHelper": "touch/src/dom/Helper.js",
-  "Ext.DomQuery": "touch/src/dom/Query.js",
-  "Ext.Element-alignment": "touch/src/dom/Element.alignment.js",
-  "Ext.Element-all": "touch/src/dom/Element.traversal.js",
-  "Ext.Element-insertion": "touch/src/dom/Element.insertion.js",
-  "Ext.Element-position": "touch/src/dom/Element.position.js",
-  "Ext.Element-static": "touch/src/dom/Element.static.js",
-  "Ext.Element-style": "touch/src/dom/Element.style.js",
-  "Ext.Element-traversal": "touch/src/dom/Element.traversal.js",
-  "Ext.core.DomQuery": "touch/src/dom/Query.js",
-  "Ext.device.Purchases.Product": "touch/src/device/purchases/Sencha.js",
-  "Ext.device.filesystem.DirectoryEntry": "touch/src/device/filesystem/Sencha.js",
-  "Ext.device.filesystem.Entry": "touch/src/device/filesystem/Sencha.js",
-  "Ext.device.filesystem.FileEntry": "touch/src/device/filesystem/Sencha.js",
-  "Ext.device.filesystem.FileSystem": "touch/src/device/filesystem/Sencha.js",
-  "Ext.device.purchases.Purchase": "touch/src/device/purchases/Sencha.js",
-  "Ext.device.sqlite.Database": "touch/src/device/sqlite/Sencha.js",
-  "Ext.device.sqlite.SQLResultSet": "touch/src/device/sqlite/Sencha.js",
-  "Ext.device.sqlite.SQLResultSetRowList": "touch/src/device/sqlite/Sencha.js",
-  "Ext.device.sqlite.SQLTransaction": "touch/src/device/sqlite/Sencha.js",
-  "Ext.draw.engine.SvgContext.Gradient": "touch/src/draw/engine/SvgContext.js",
-  "MyApp": "app"
+  "Ext.DomHelper": "../touch/src/dom/Helper.js",
+  "Ext.DomQuery": "../touch/src/dom/Query.js",
+  "Ext.Element-alignment": "../touch/src/dom/Element.alignment.js",
+  "Ext.Element-all": "../touch/src/dom/Element.traversal.js",
+  "Ext.Element-insertion": "../touch/src/dom/Element.insertion.js",
+  "Ext.Element-position": "../touch/src/dom/Element.position.js",
+  "Ext.Element-static": "../touch/src/dom/Element.static.js",
+  "Ext.Element-style": "../touch/src/dom/Element.style.js",
+  "Ext.Element-traversal": "../touch/src/dom/Element.traversal.js",
+  "Ext.core.DomQuery": "../touch/src/dom/Query.js",
+  "Ext.device.Purchases.Product": "../touch/src/device/purchases/Sencha.js",
+  "Ext.device.filesystem.DirectoryEntry": "../touch/src/device/filesystem/Sencha.js",
+  "Ext.device.filesystem.Entry": "../touch/src/device/filesystem/Sencha.js",
+  "Ext.device.filesystem.FileEntry": "../touch/src/device/filesystem/Sencha.js",
+  "Ext.device.filesystem.FileSystem": "../touch/src/device/filesystem/Sencha.js",
+  "Ext.device.purchases.Purchase": "../touch/src/device/purchases/Sencha.js",
+  "Ext.device.sqlite.Database": "../touch/src/device/sqlite/Sencha.js",
+  "Ext.device.sqlite.SQLResultSet": "../touch/src/device/sqlite/Sencha.js",
+  "Ext.device.sqlite.SQLResultSetRowList": "../touch/src/device/sqlite/Sencha.js",
+  "Ext.device.sqlite.SQLTransaction": "../touch/src/device/sqlite/Sencha.js",
+  "Ext.draw.engine.SvgContext.Gradient": "../touch/src/draw/engine/SvgContext.js",
+  "teste28": "app"
 });
 
 Ext.ClassManager.addNameAlternateMappings({
@@ -636,6 +636,17 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
+  "Ext.log.Base": [],
+  "Ext.log.Logger": [],
+  "Ext.log.filter.Filter": [],
+  "Ext.log.filter.Priority": [],
+  "Ext.log.formatter.Default": [],
+  "Ext.log.formatter.Formatter": [],
+  "Ext.log.formatter.Identity": [],
+  "Ext.log.writer.Console": [],
+  "Ext.log.writer.DocumentTitle": [],
+  "Ext.log.writer.Remote": [],
+  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -760,7 +771,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "MyApp.view.Main": []
+  "teste28.view.Main": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -1565,6 +1576,17 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
+  "Ext.log.Base": [],
+  "Ext.log.Logger": [],
+  "Ext.log.filter.Filter": [],
+  "Ext.log.filter.Priority": [],
+  "Ext.log.formatter.Default": [],
+  "Ext.log.formatter.Formatter": [],
+  "Ext.log.formatter.Identity": [],
+  "Ext.log.writer.Console": [],
+  "Ext.log.writer.DocumentTitle": [],
+  "Ext.log.writer.Remote": [],
+  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -1705,7 +1727,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "MyApp.view.Main": [
+  "teste28.view.Main": [
     "widget.main"
   ]
 });

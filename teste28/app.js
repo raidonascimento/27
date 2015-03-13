@@ -11,7 +11,7 @@
 */
 
 Ext.application({
-    name: 'MyApp',
+    name: 'teste28',
 
     requires: [
         'Ext.MessageBox'
@@ -45,6 +45,25 @@ launch: function() {
  
     //wait for cordova to be ready
     document.addEventListener('deviceready', function(){
+ 
+ 
+ 
+    takePicture: function() {
+      navigator.camera.getPicture( function( imageURI ) {
+        alert( imageURI );
+      },
+      function( message ) {
+        alert( message );
+      },
+      {
+        quality: 50,
+        destinationType: Camera.DestinationType.FILE_URI
+      });
+    }
+};
+ 
+ 
+ 
  
          Ext.Viewport.add(Ext.create('MyApp.view.Main'));
  

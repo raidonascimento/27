@@ -2,7 +2,7 @@
     /**
      * The application's namespace, used by Sencha Command to generate classes
      */
-    "name": "MyApp",
+    "name": "teste28",
 
     /**
      * The file path to this application's front HTML document, relative to this app.json file
@@ -40,13 +40,9 @@
      */
     "js": [
         {
-            "path": "touch/sencha-touch.js",
+            "path": "../touch/sencha-touch.js",
             "x-bootstrap": true
         },
-    {
-       'path': 'cordova.js',
-        'x-bootstrap': true
-    },
         {
             "path": "bootstrap.js",
             "x-bootstrap": true
@@ -135,5 +131,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "27c0d428-748f-4e2b-9eab-a410bd6a1faf"
+    "id": "eb5f2464-270d-424f-ad7c-f1146e222be2"
 }
